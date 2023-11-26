@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "96701696328",
+    "project_id": "uam-user",
+    "storage_bucket": "uam-user.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96701696328:android:cf758bf5d48ee302d08b7d",
+        "android_client_info": {
+          "package_name": "com.example.uam_user"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBb7vqIgWyxZlxygMrZ7X6KMGUWi_AxB1Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
