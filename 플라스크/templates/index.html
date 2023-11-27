@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+    <body>
+        <h1><a href='/'>WEB</a></h1>
+        <ol>
+            <h2>파이썬 함수 결과</h2>
+            <p>연결 :</p>
+            <ul>
+                {% for data in received_data %}
+                <li>{{ data }}</li>  <!-- 받아온 데이터 출력 -->
+                {% endfor %}
+            </ul>
+            <li><a href='/read/1/'>html</a></li>
+            <li><a href='/read/2/'>css</a></li>
+            <li><a href='/read/3/'>javascript</a></li>
+        </ol>
+        <h2>Welcome</h2>
+        <img src="uam.jpg">
+    </body>
+    <meta http-equiv="refresh" content="5">
+</html>
