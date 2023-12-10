@@ -3,7 +3,7 @@
 
 
 
-const  char* ssid1 = "ㅇㅈㅇ"; // 첫 번째 Wi-Fi 네트워크 이름
+const  char* ssid1 = "ㅊㅁㅅ"; // 첫 번째 Wi-Fi 네트워크 이름
 const char* password1 = "qqqqqqqq"; // 첫 번째 Wi-Fi 네트워크 비밀번호
 const char* ssid2 = "찬호의 iPhone"; // 두 번째 Wi-Fi 네트워크 이름
 const char* password2 = "song000507"; // 두 번째 Wi-Fi 네트워크 비밀번호
