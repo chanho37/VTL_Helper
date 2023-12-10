@@ -69,6 +69,9 @@ def get_realtime_data():
                 cal1 = dis1*dis1 + alt1*alt1
                 cal2 = dis2*dis2 + alt2*alt2
 
+                cal1 = round(cal1, 4)
+                cal2 = round(cal2, 4)
+
                 cal1 = str(cal1)
                 cal2 = str(cal2)
                 
