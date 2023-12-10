@@ -1,21 +1,29 @@
 <!doctype html>
 <html>
     <body>
-        <h1><a href='/'>WEB</a></h1>
+        <h1 style="color: #4169E1">UAM 위치&고도 정보</h1>
+        <h2>UAM 거리</h2>
         <ol>
-            <h2>파이썬 함수 결과</h2>
-            <p>연결 :</p>
-            <ul>
-                {% for data in received_data %}
-                <li>{{ data }}</li>  <!-- 받아온 데이터 출력 -->
+            <p>거리1 거리2</p>
+                {% for num1 in num1 %}
+                {{ num1 }} <!-- 받아온 데이터 출력 -->
                 {% endfor %}
-            </ul>
-            <li><a href='/read/1/'>html</a></li>
-            <li><a href='/read/2/'>css</a></li>
-            <li><a href='/read/3/'>javascript</a></li>
+        </ol>        
+        <h2>UAM 고도</h2>
+        <ol>
+            <p>고도1</p>
+                {% for num2 in num2 %}
+                {{ num2 }}m <!-- 받아온 데이터 출력 -->
+                {% endfor %}
+
+            <p>고도2</p>
+
+                {% for num2 in num2 %}
+                {{ num2 }}m <!-- 받아온 데이터 출력 -->
+                {% endfor %}
+
         </ol>
-        <h2>Welcome</h2>
-        <img src="uam.jpg">
+        <img src="uam.jpeg">
     </body>
-    <meta http-equiv="refresh" content="5">
+    <meta http-equiv="refresh" content="2">
 </html>
