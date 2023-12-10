@@ -33,8 +33,8 @@ void setup() {
 
 void loop() {
   getAltitude();
-  Serial.print(sensor.alt - ALTavg);
-  Serial.println(" m");
+  Serial.println(sensor.alt - ALTavg);
+//  Serial.println(" m");
   delay(500);
   
   // 데이터를 Flask 서버로 전송
@@ -61,6 +61,7 @@ void sendDataToFlask(float altitudeValue) {
 
   http.end();
   }
+ delay(500);
 }
 }
 void getAltitude()
